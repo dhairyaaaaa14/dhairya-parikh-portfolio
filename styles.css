@@ -6,6 +6,10 @@
   --off-white: #F3F4F6;
 }
 
+h1{
+  font-weight: bolder ;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
   margin: 0px;
@@ -30,18 +34,21 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  box-sizing: border-box;
 }
 
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  margin-left: 10px;
 }
 
 .secondary-link {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  margin-left: 10px;
 }
 
 /** Lists **/
@@ -107,6 +114,7 @@ hr {
 
 .section{
     text-align: center;
+    
 }
 .section h1 {
   text-align: center;
@@ -125,6 +133,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 20px;
 }
 
 .footer .link{
